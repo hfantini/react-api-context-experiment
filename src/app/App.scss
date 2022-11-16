@@ -1,0 +1,25 @@
+.APP {
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+
+  .APP-TOP {
+    width: calc(100% - 2rem);
+    height: 50%;
+  }
+
+  .APP-BOTTOM {
+    width: calc(100% - 2rem);
+    height: calc(50% - 2rem);
+    display: flex;
+    flex-direction: row;
+
+    .APP-BOTTOM-LEFT {
+      flex-grow: 1;
+    }
+
+    .APP-BOTTOM-RIGHT {
+      flex-grow: 1;
+    }
+  }
+}

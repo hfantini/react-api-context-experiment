@@ -1,0 +1,10 @@
+.LEVEL2-BOARD-DIARY {
+    width: calc(100% - 2rem);
+    height: calc(100% - 2rem);
+    padding: 1rem;
+    background-color: darkorange;
+
+    .LEVEL2-BOARD-DIARY-TEXTAREA {
+        resize: none;
+    }
+}
